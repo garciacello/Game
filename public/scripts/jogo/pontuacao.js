@@ -5,11 +5,11 @@ class Pontuacao {
   
   exibe(){
     textAlign(RIGHT)
-    fill('#fff')
+    fill('#fcd35')
     textSize(50)
     text(parseInt(this.pontos), width - 30, 50)
   }
   adicionarPonto(){
-    this.pontos = this.pontos + 0.2
+    this.pontos = this.pontos + 0.01
   }
 }

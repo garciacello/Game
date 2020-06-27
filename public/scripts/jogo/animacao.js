@@ -20,7 +20,6 @@ class Animacao {
         this.anima();
   }
       
-  
     anima(){
       this.frameAtual++
       

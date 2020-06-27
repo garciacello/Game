@@ -1,6 +1,7 @@
-class Personagem  extends Animacao {
+class Personagem extends Animacao {
     constructor(matriz, imagem, x, variacaoY, largura, altura, larguraSprite, alturaSprite){
       super(matriz, imagem, x, variacaoY, largura, altura, larguraSprite, alturaSprite);
+      
       this.variacaoY = variacaoY;
       this.yInicial = height - this.altura - this.variacaoY;
       this.y = this.yInicial; 
@@ -29,7 +30,7 @@ class Personagem  extends Animacao {
   
    estaColidindo(inimigo){
      const precisao = .7
-    const colisao = collideRectRect(
+     const colisao = collideRectRect(
        this.x,
        this.y,              
        this.largura * precisao,
