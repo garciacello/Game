@@ -11,5 +11,6 @@ function preload() {
   somGameOver =loadSound('sons/GameOverSong.mp3');
   imagemTelaInicial = loadImage('imagens/cenario/telaInicial.png');
   fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
+  imagemVida =loadImage('imagens/assets/coracao.png');
   imagemGameOver = loadImage('imagens/assets/game-over.png');
 }

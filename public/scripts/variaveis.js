@@ -4,17 +4,17 @@ let imagemInimigo;
 let imagemInimigoGrande;
 let imagemInimigoVoador;
 let imagemTelaInicial;
-
+let imagemVida;
 let fonteTelaInicial;
 let somDoPulo;
 
 let jogo;
 
-let cenaAtual = 'telaInicial';
+let cenaAtual = 'jogo';
 let cenas;
 let telaInicial;
 let botaoGerenciador;
-
+let vida;
 
 let cenario;
 let somDoJogo;
