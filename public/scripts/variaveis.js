@@ -1,3 +1,5 @@
+//VARIAVEIS.JS - Arquivo com todas as variáveis do jogo
+
 let imagemCenario;
 let imagemPersonagem;
 let imagemInimigo;
@@ -9,14 +11,15 @@ let fonteTelaInicial;
 let somDoPulo;
 
 let jogo;
+let fita;
 
-let cenaAtual = 'jogo';
+let cenaAtual = 'telaInicial';
 let cenas;
 let telaInicial;
 let botaoGerenciador;
 let vida;
 
-let cenario;
+let cenario;  //usa a classe construtora 'Cenario
 let somDoJogo;
 let personagem;
 let inimigo;
@@ -122,4 +125,5 @@ const matrizInimigoVoador = [
   [0, 750],
 ]  
 
+//o metodo 'push' no draw insere todos inimigos nessa const
 const inimigos= []
